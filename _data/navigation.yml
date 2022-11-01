@@ -1,0 +1,8 @@
+logo_image: '/images/logo.png'
+
+menu__settings:
+  menu__items:
+    - title: 'Members'
+      url: '/'
+    - title: 'About'
+      url: '/about/'

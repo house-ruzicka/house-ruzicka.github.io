@@ -1,0 +1,24 @@
+title: Ruzicka
+
+collections_dir: 'collections'
+
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+_collection_groups:
+  - heading: Content
+    collections:
+      - pages
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      type: pages
+      path: _pages/index.html
+    values:
+      permalink: /
